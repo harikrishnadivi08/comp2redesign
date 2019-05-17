@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+i{
+    margin-right: 10px;
+}
+
+.section{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* navbar */
+nav{
+    display: flex;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(68, 67, 66);
+    font-family: 'poppins', sans-serif;
+    justify-content: space-around;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+}
+
+ul li a{
+    color: rgb(247, 248, 248);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(228, 66, 26);
+}
+
+.menu-items{
+    width: 60%;
+}
+
+
+
+.signin{
+    padding: 0%;
+    margin: 0px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color:white;
+}
+/* navbar */
+
+/* homepage */
+#home{
+    background-size: cover;
+}
+/* homepage */
+
+/* categories */
+
+#categories{
+    height: 60vh;
+}
+
+#categories li{
+   text-decoration: none;
+   width: 30%;
+    float: left;
+    list-style-type: none;
+}
+
+#categories img{
+    border-radius: 20px;
+    margin: 10px;
+    padding-top: 50px;
+    padding-left: 40px;
+    height:40vh;
+}
+
+/* categories */
+
+/* message us form */
+.messageform-title{
+    margin-top: 100px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.messageform-title h1{
+    font-size: 32px;
+    line-height: 30px;
+}
+.messageform-title h2{
+    font-size: 16px;
+    line-height: 45px;
+}
+form{
+    margin-top: 50px;
+    text-align: center;
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: rgb(12, 12, 12);
+    font-size: 18px;
+    margin-bottom: 16px;
+    box-align: center;
+}
+input{
+    height: 45px;
+}
+form .submit{
+    background: #ff5722;
+    border-color: transparent;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 400px;
+}
+/* message us form */
+
+/* footer */
+.footer{
+    background-color: rgb(48, 47, 47);
+}
+
+.column h2{
+    text-decoration: bold;
+    color: red;
+
+}
+
+.column{
+    color:white;
+    text-align: center;
+}
+
+.column .icon{
+    padding-top: 20px;
+    text-decoration: none;
+    display: flex;
+}
+
+.mediaicons{
+    /* float: left;
+    display: flex;
+    width:100%; */
+    padding-top: 30px;
+}
+.cntdtls{
+    padding-top: 30px;
+    display: block;
+    float: left;
+}
+
+.cntlist{
+    padding: 10px;
+    float:left;
+    margin-left: 20%;
+}
+
+.sub-us{
+    padding-top: 30px;
+}
+
+.email{
+    width:65%;
+    border: 0;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.subscribe{
+    width:30%;
+    border: 0;
+    background-color: #ff5722;
+    padding: 0%;
+    border-radius: 10px;
+    margin-left: -4px;
+    height: 30px;
+}
+/* footer */
