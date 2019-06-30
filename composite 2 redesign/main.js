@@ -25,3 +25,8 @@ if (username == objPeople[i].username && password == objPeople[i].password)
 }
 console.log("incorrect username or password");
 }
+
+
+function subFunc() {
+    alert("You are now subscribed.");
+  }
