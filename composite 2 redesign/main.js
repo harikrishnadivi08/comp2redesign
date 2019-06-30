@@ -30,3 +30,8 @@ console.log("incorrect username or password");
 function subFunc() {
     alert("You are now subscribed.");
   }
+
+
+function messageFunc() {
+    alert("Your message has been sent successfully.");
+  }
